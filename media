@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+int main() {
+    char nome[10];
+    float nota1, nota2, nota3, media;
+    printf("Aluno, digite seu nome: ");
+    scanf("%s", nome);
+    printf("%s, digite a nota da primeira prova: ", nome);
+    scanf("%f", &nota1);
+    printf("Agora, digite a segunda nota da segunda prova: ");
+    scanf("%f", &nota2);
+    printf("E por fim, digite sua última nota: ");
+    scanf("%f", &nota3);
+    media = (nota1 + nota2 + nota3) / 3;
+    printf("%s, sua média é: %.2f\n", nome, media);
+    return 0;
+}

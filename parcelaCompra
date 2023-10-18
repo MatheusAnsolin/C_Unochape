@@ -1,0 +1,11 @@
+#include <stdio.h>
+
+int main() {
+    float valorCompra, valorParcela;
+    printf("Vamos parcelar sua compra em 6x!\n");
+    printf("Digite o valor total da compra: ");
+    scanf("%f", &valorCompra);
+    valorParcela = valorCompra / 6;
+    printf("O valor de cada prestação em 6 vezes, sem juros é: R$%.2f\n", valorParcela);
+    return 0;
+}

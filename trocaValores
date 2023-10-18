@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+int main() {
+    int A, B, auxiliar;
+    printf("Vamos trocar os valores de A e B!\n");
+    printf("Por favor, digite o valor para A: ");
+    scanf("%d", &A);
+    printf("Agora, digite o valor para B: ");
+    scanf("%d", &B);
+    auxiliar = A;
+    A = B;
+    B = auxiliar;
+    printf("Após a troca, temos A = %d e B = %d\n", A, B);
+    return 0;
+}
